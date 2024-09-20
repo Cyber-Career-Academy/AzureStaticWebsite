@@ -4,22 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Twin Leaf wrote this Code</title>
+    <title>Christian Felix</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
 </head>
-
-<body>
-    <main>
-    <h1>Twin Leaf wrote this Code</h1>
-    <p>Loading content from the API: <b id="name">...</b></p>
-    </main>
-
-    <script>
-    (async function() {
-        const { text } = await( await fetch(`/api/message`)).json();
-        document.querySelector('#name').textContent = text;
-    }());
-    </script>
-</body>
 
 </html>
