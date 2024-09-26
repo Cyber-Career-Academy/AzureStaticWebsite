@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   });
   
   
-  const functionApi = 'https://rishabcloudresume.azurewebsites.net/api/Counter';
+  const functionApi = 'https://gray-flower-0dd7af310.5.azurestaticapps.net/api/Counter';
   
   const getVisitCount = () => {
     let count = 30;
